@@ -19,7 +19,7 @@ for a in range(height):
         for b in range (width):
             if b == 0:
                 txt += "2"
-            if b != 15:
+            elif b != 15:
                 txt += " 2"
             if b == 15:
                 txt += " 2\n"
@@ -27,7 +27,7 @@ for a in range(height):
         for b in range (width):
             if b == 0:
                 txt += "1"
-            if b != 15:
+            elif b != 15:
                 txt += " 1"
             if b == 15:
                 txt += " 1\n"
@@ -37,7 +37,7 @@ for a in range(height):
             if row == 0 or row == 15:
                     if b == 0:
                         txt += "1"
-                    if b != 15:
+                    elif b != 15:
                         txt += " 1"
                     if b == 15:
                         txt += " 1\n"
@@ -45,7 +45,7 @@ for a in range(height):
             else:
                 if b == 0:
                     txt += "1"
-                if b != 15: 
+                elif b != 15: 
                     txt += " 2"
                 if b == 15:
                     txt += " 1\n"
